@@ -18,6 +18,6 @@
   "homepage": "https://github.com/nmarier-coveo/dependency-update-test#readme",
   "dependencies": {
     "lodash": "^4.17.4",
-    "react": "^15.3.2"
+    "react": "^17.0.1"
   }
 }
