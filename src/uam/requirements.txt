@@ -1,0 +1,12 @@
+click >= 7.1.2, < 7.2
+kubernetes >= 10.0.1, < 10.1
+ldap3 >= 2.6.1, < 2.7
+PyMySQL >= 0.7.11, < 0.8
+pystache >= 0.5.4, < 0.6
+pytz==2019.3
+PyYAML >= 5.4, < 6.0
+requests >= 2.22.0, < 2.23
+retrying >= 1.3.3, < 1.4
+strongdm >= 1.0.15, < 1.1
+
+security-base-lib[slack] ~= 2.0

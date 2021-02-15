@@ -1,0 +1,8 @@
+click >= 7.1.2, < 7.2
+ldap3 >= 2.6.1, < 2.7
+PyMySQL >= 0.7.11, < 0.8
+PyYAML >= 5.4, < 6.0
+requests >= 2.22.0, < 2.23
+pystache >= 0.5.4, < 0.6
+
+security-base-lib[slack] ~= 2.0

@@ -1,0 +1,20 @@
+-r src/uam/requirements.txt
+-r src/skilljar_sync/requirements.txt
+
+# The verison of psycopg2 cannot be bumped. AWS lambdas require a compiled from source version
+# of psycopg and postgres. Currently, we have a version on the lambda that is equivalent to the
+# below version. If this gets bumped, it's possible that features are going to be used in development
+# that are incompatible with the version running on the lambda. Tl;dr : if you want to upgrade psycopg2,
+# be prepared to compile from source.
+psycopg2-binary==2.7.6.1
+boto3 >= 1.12.49, < 1.13
+mypy==0.761
+pytest >= 5.3.2, < 5.4
+pytest-cov >= 2.8.1, < 2.9
+requests-mock >= 1.7.0, < 1.8
+tox >= 3.14.3, < 3.15
+yapf >= 0.29.0, < 0.30
+black >= 20.8b1
+keyring >= 21.0.0, < 21.1
+snowflake-connector-python >= 2.3.9, < 3.0
+pylint==2.5.3
